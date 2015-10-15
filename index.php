@@ -1,5 +1,5 @@
 <?php
-//...get the timestamp from the db
+//...here input your time
 
 //$hours = date("h", $timestamp);
 //$minutes = date("m", $timestamp);

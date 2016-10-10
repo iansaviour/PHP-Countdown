@@ -6,7 +6,7 @@
 //$seconds = date("s", $timestamp); 
 date_default_timezone_set("Asia/Hong_Kong");
 $t2 = StrToTime (date("d-m-Y H:i:s"));
-$t1 = StrToTime ( '2015-10-02 16:00:00' );
+$t1 = StrToTime ( '2016-10-08 15:00:00' );
 $diff = $t1 - $t2;
 
 $hours = floor ($diff / ( 60 * 60 ));
@@ -60,7 +60,7 @@ body {
 <script type  = 'text/javascript'>
         function countDownTime(){
                 if(hours >= 0 && minutes >= 0 && seconds >= 0){
-                        document.getElementById("time").innerHTML = "Breaking news : Warehouse Sale dalam " + hours + " jam " + minutes + " menit " + seconds + " detik lagi"; 
+                        document.getElementById("time").innerHTML = "Breaking news : Coffe break dalam " + hours + " jam " + minutes + " menit " + seconds + " detik lagi"; 
                         if(seconds == 0){
                                 hours = hours;
                                 minutes = minutes - 1;
@@ -81,7 +81,7 @@ body {
 
                 }else{
                         clearTimeout(timer);
-                        document.getElementById("time").innerHTML = "Breaking news : Warehouse Sale sedang berlangsung."
+                        document.getElementById("time").innerHTML = "Breaking news : Coffe break sedang berlangsung."
                 }
                 
         }
